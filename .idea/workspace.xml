@@ -2,66 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="053065a0-782f-42b2-910f-b54a16f4dafd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/animations.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/adrian_rodriguez.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/blank.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/flags.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ionic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/jesus_ibarra.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/jonatan_barajas.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/jorge_bustamante.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/juan_alcantar.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/jumboPic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/luis_marquez.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/moises_martinez.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/picFive.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/picFour.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/picOne.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/picThree.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/picTwo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/soccerBall.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/teamLogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controllers/players.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jqueryscripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/lib/angular/angular-animate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/lib/angular/angular-animate.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/lib/angular/angular-route.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/lib/angular/angular-route.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/lib/angular/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/lib/angular/angular.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/myapp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/services/authentication.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/adrian_rodriguez.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/blank.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/flags.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/ionic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/jesus_ibarra.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/jonatan_barajas.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/jorge_bustamante.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/juan_alcantar.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/jumboPic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/luis_marquez.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/moises_martinez.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/picFive.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/picFour.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/picOne.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/picThree.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/picTwo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/soccerBall.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/teamLogo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/partials/control.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/partials/fixtures.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/partials/glocations.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/partials/history.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/partials/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/partials/players.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/partials/standings.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/partials/tlocations.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/partials/gallery.html" afterPath="$PROJECT_DIR$/public/partials/gallery.html" />
     </list>
     <ignored path="madbarDesk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,8 +30,38 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="67" selection-start-line="63" selection-start-column="67" selection-end-line="63" selection-end-column="67" />
+            <state relative-caret-position="600">
+              <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/partials/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="72" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/partials/gallery.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -97,14 +70,21 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Moises Martinez &lt;mlmart16@asu.edu&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/partials/home.html" />
+        <option value="$PROJECT_DIR$/public/partials/news.html" />
+        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/public/partials/home.html" />
+        <option value="$PROJECT_DIR$/public/partials/gallery.html" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
       </list>
     </option>
@@ -126,9 +106,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="13" />
-    <option name="y" value="448" />
-    <option name="width" value="1060" />
+    <option name="x" value="3" />
+    <option name="y" value="370" />
+    <option name="width" value="1078" />
     <option name="height" value="1237" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -186,6 +166,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myPortfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myPortfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myPortfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myPortfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myPortfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myPortfolio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,19 +314,27 @@
       <workItem from="1477249780593" duration="1299000" />
       <workItem from="1477251428272" duration="3563000" />
       <workItem from="1477459532835" duration="152000" />
-      <workItem from="1477481439554" duration="465000" />
+      <workItem from="1477481439554" duration="5163000" />
     </task>
+    <task id="LOCAL-00001" summary="Added background image and adjusted navbar styles">
+      <created>1477487295421</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1477487295421</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6133000" />
+    <option name="totallyTimeSpent" value="10831000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="448" width="1060" height="1237" extended-state="0" />
+    <frame x="3" y="370" width="1078" height="1237" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2264151" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20500928" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -341,6 +383,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added background image and adjusted navbar styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added background image and adjusted navbar styles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -537,30 +583,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/partials/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/partials/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/blank.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -574,10 +596,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/partials/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="72" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="67" selection-start-line="63" selection-start-column="67" selection-end-line="63" selection-end-column="67" />
+        <state relative-caret-position="600">
+          <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="58" />
           <folding />
         </state>
       </provider>

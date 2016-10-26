@@ -69,30 +69,6 @@
 
 
 
-
-
-.welcomeFont {
-  font-size: 1.6em;
-  text-align: center;
-  font-family: 'Montez', monospace;
-  color: indigo;
-  text-shadow: cyan 1px 1px 1px;
-  font-weight: bold;
-}
-
-/* NEW STYLES */
-
-
-
-
-
-
-
-
-
-
-
-
 /* MAIN STYLES */
 body {
   position: absolute;
