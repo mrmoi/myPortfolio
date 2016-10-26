@@ -1,0 +1,67 @@
+<div class="container-fluid greenBackground">
+  <div class="row">
+    <div class="col-xs-1 col-sm-3 col-md-4 col-lg-4"></div>
+    <div class="col-xs-10 col-sm-6 col-md-4 col-lg-4">
+      <div class="container-fluid homeDiv">
+
+    <p>Add a player</p>
+    <p>Type a player's name and hit +</p>
+
+    <form class="formgroup addmeeting cf"
+          name="myform"
+          ng-submit="addPlayer()"
+          novalidate>
+
+    <div class="inputwrapper">
+    <input type="text" name="playername"
+           placeholder="Player name"
+           ng-model="playername" ng-required="true">
+    </div>
+
+    <div class="inputwrapper">
+    <input type="text" name="playerposition"
+           placeholder="Player position"
+           ng-model="playerposition" ng-required="true">
+    </div>
+
+    <div class="inputwrapper">
+    <input type="text" name="playernationality"
+           placeholder="Player nationality"
+           ng-model="playernationality" ng-required="true">
+    </div>
+
+    <div class="inputwrapper">
+    <input type="text" name="playernumber"
+           placeholder="Player number"
+           ng-model="playernumber" ng-required="true">
+    </div>
+
+    <div class="inputwrapper">
+    <input type="text" name="playerstatus"
+           placeholder="Player status"
+           ng-model="playerstatus" ng-required="true">
+    </div>
+
+    <button type="submit" class="btn"
+            ng-disabled="myform.$invalid">+</button>
+    </form>
+
+
+  </div>
+</div>
+
+<div class="col-xs-1 col-sm-3 col-md-4 col-lg-4">
+
+  <p>Your Players</p>
+  <div class="homeDiv" ng-repeat="(key, player) in players">
+    <p>{{ player.name }}
+    {{ player.position }}
+    {{ player.nationality }}
+    {{ player.number }}
+    {{ player.status }}</p>
+  </div>
+
+</div>
+
+</div>
+</div>
