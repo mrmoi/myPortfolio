@@ -65,6 +65,11 @@
     border-radius: 25px;
 }
 
+.contactInfo {
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+
+}
 
 /* CURRENT STYLES ##################################################  */
 
@@ -88,23 +93,26 @@ body {
 
 .homeDiv {
   position: relative;
-  top: 8em;
+  top: 2em;
 }
 
 .panel-heading {
   background-color: black;
 }
 .panel-body {
-  background-color: white;
   color: #1a237e;
   font-family: 'Dosis', cursive;
   font-size: 1.2em;
-  margin-top: 5%;
+  background-color: silver;
 }
 .panel-title {
-  color: cyan;
-  font-family: 'Lobster', fantasy;
-  font-size: 1.3em;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.4em;
+    text-shadow: 1px 2px 3px silver;
+    color: black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
 }
 
 
