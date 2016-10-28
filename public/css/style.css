@@ -93,7 +93,7 @@ body {
 
 .homeDiv {
   position: relative;
-  top: 2em;
+  top: 8em;
 }
 
 .panel-heading {
@@ -115,6 +115,10 @@ body {
     text-align: center;
 }
 
+#divID {
+    overflow-y: scroll;
+    border-bottom: 2px solid gold;
+}
 
 
 
