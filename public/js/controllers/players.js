@@ -23,15 +23,15 @@ function($scope, $rootScope, $firebaseAuth, $firebaseArray, FIREBASE_URL) {
            $scope.addPlayer = function() {
                playersInfo.$add({
                    name: $scope.playername,
-                   /*position: $scope.playerposition,
-                   nationality: $scope.playernationality,
+                   position: $scope.playerposition,
+                   /*nationality: $scope.playernationality,
                    number: $scope.playernumber,
                    status: $scope.playerstatus,*/
                    date: Firebase.ServerValue.TIMESTAMP
                }).then(function() {
                    $scope.playername='';
-                   /*$scope.playerposition='';
-                   $scope.playernationality='';
+                   $scope.playerposition='';
+                   /*$scope.playernationality='';
                    $scope.playernumber='';
                    $scope.playerstatus='';*/
                }); //promise

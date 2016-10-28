@@ -18,7 +18,7 @@ myApp.config(['$routeProvider', function($routeProvider) {
     $routeProvider.
         when('/home', {
           templateUrl: 'partials/home.html',
-          //controller: 'RegistrationController'
+          controller: 'PlayersController'
         }).
         when('/news', {
           templateUrl: 'partials/news.html',
