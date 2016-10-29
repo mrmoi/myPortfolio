@@ -12,26 +12,17 @@
   <div class="aboutContainer" id="mydiv"><!-- ABOUT CONTAINER -->
         <img src="img/portfolioPic.jpg" alt="Moises Martinez" class="myImage center-block">
 
-      <div ng-repeat="(key, player) in players">
-      <h3 class="headingFont">{{player.name}}</h3>
+      <div ng-repeat="(key, item) in items">
+      <h3 class="headingFont">{{name.nameField}}</h3>
       </div>
 
       <div class="panel panel">
           <div class="panel-title">About Me</div>
         <div class="panel-body">
 
-            <div ng-repeat="(key, player) in players">
-            <p>{{player.position}}</p>
-            </div>
-
-          <p>Welcome to my portfolio. My name is Moises Martinez and I am an Information Technology
-             major at Arizona State University and possess an associate’s degree in Computer Information
-             Systems from Scottsdale Community College. As part of the degree and as personal interest,
-             I have experience developing front-end applications using languages such as HTML, CSS, and
-             JavaScript. In addition, I have worked with languages such as C, C++, and Java under an academic
-             environment. Through this portfolio I will share some of the projects I have done for school,
-             work, and in my spare time.
-          </p>
+      <div ng-repeat="(key, item) in items">
+          <p>{{bio.aboutField}}</p>
+      </div>
 
         </div>
       </div>
@@ -59,3 +50,15 @@
 </div>
 
 </div>
+
+<!--
+Welcome to my portfolio. My name is Moises Martinez and I am an Information Technology
+             major at Arizona State University and possess an associate’s degree in Computer Information
+             Systems from Scottsdale Community College. As part of the degree and as personal interest,
+             I have experience developing front-end applications using languages such as HTML, CSS, and
+             JavaScript. In addition, I have worked with languages such as C, C++, and Java under an academic
+             environment. Through this portfolio I will share some of the projects I have done for school,
+             work, and in my spare time.
+
+
+-->
