@@ -17,10 +17,10 @@
 
 .headingFont {
     font-family: 'Kanit', sans-serif;
-    font-size: 2.0em;
+    font-size: 1.7em;
     text-shadow: 1px 2px 3px silver;
     color: white;
-    padding: 3px;
+    padding: 1px;
     text-align: center;
 }
 
@@ -71,22 +71,13 @@
 
 }
 
-.customWell {
-    color: #1a237e;
-    font-family: 'Dosis', cursive;
-    font-size: 1.2em;
-    background-color: silver;
+.contactInfo img {
+    max-width: 50px;
+    max-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.customWell h4 {
-    font-family: 'Kanit', sans-serif;
-    font-size: 1.4em;
-    text-shadow: 1px 2px 3px silver;
-    color: black;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    text-align: center;
-}
 /* CURRENT STYLES ##################################################  */
 
 
@@ -110,6 +101,7 @@ body {
 .homeDiv {
   position: relative;
   top: 8em;
+  bottom: 2em;
 }
 
 .panel-heading {
@@ -129,6 +121,11 @@ body {
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;
+}
+
+.panel-body b {
+    font-weight: 900;
+    color: #333333;
 }
 
 #divID {

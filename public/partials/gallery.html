@@ -5,8 +5,7 @@
 
     <div class="col-xs-10 col-sm-6 col-md-6 col-lg-6"><!-- CENTER GRID -->
       <div class="container-fluid homeDiv">
-        <div class="aboutContainer">
-
+    <div class="aboutContainer">
     <div ng-repeat="(key, p) in projects">
 
         <div class="panel panel">
@@ -14,7 +13,7 @@
             <div class="panel-body">
                 <p><b>Description:</b> {{ p.about }}</p>
                 <p><b>Resources:</b> {{ p.resources }}</p>
-                <p><b>Link:</b> {{ p.link }}</p>
+                <p><b>Link:</b> <a>{{ p.link }}</a></p>
             </div>
         </div>
 
