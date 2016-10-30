@@ -43,11 +43,13 @@ function($scope, $rootScope, $firebaseAuth, $firebaseArray, FIREBASE_URL) {
             name: $scope.projectName,
             about: $scope.projectAbout,
             resources: $scope.projectResources,
+            link: $scope.projectLink,
             date: Firebase.ServerValue.TIMESTAMP
         }).then(function() {
             $scope.projectName='';
             $scope.projectAbout='';
             $scope.projectResources='';
+            $scope.projectLink='';
         });
     };
 
