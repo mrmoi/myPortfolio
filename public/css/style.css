@@ -17,7 +17,7 @@
 
 .headingFont {
     font-family: 'Kanit', sans-serif;
-    font-size: 1.7em;
+    font-size: 1.4em;
     text-shadow: 1px 2px 3px silver;
     color: white;
     padding: 1px;
@@ -132,9 +132,42 @@ body {
 }
 
 
+/*##########  CONTROL PAGE STYLES #########*/
+.controlEntry {
+    position: relative;
+    top: 5em;
+    padding: 2%;
+}
 
+.controlEntry button {
+    margin-top: 2%;
+}
 
+.controlEntry input {
+    margin-top: 2%;
+}
 
+.controlEntry textarea {
+    margin-top: 2%;
+}
+
+.controlOutput {
+    position: relative;
+    top: 5em;
+    padding: 2%;
+}
+
+.controlOutput button {
+    margin-top: 2%;
+}
+
+.controlOutput input {
+    margin-top: 2%;
+}
+
+.controlOutput textarea {
+    margin-top: 2%;
+}
 
 
 

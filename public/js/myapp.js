@@ -7,12 +7,12 @@ myApp.config(['$routeProvider', function($routeProvider) {
           templateUrl: 'partials/home.html',
           controller: 'BackendController'
         }).
-        when('/news', {
-          templateUrl: 'partials/news.html',
+        when('/portfoliocontrol', {
+          templateUrl: 'partials/portfoliocontrol.html',
           controller: 'BackendController'
         }).
-        when('/gallery', {
-          templateUrl: 'partials/gallery.html',
+        when('/projects', {
+          templateUrl: 'partials/projects.html',
           controller: 'BackendController'
         }).
         otherwise ({

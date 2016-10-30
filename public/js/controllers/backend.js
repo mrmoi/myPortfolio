@@ -9,6 +9,7 @@ function($scope, $rootScope, $firebaseAuth, $firebaseArray, FIREBASE_URL) {
     /* ABOUT ME CONTENT */
     var bioRef = new Firebase(FIREBASE_URL + '/bio');
     var bioInfo = new $firebaseArray(bioRef);
+    var index = bioInfo.$indexFor(bioRef);
     $scope.bios = bioInfo;
 
     /* PROJECTS CONTENT */
@@ -36,6 +37,20 @@ function($scope, $rootScope, $firebaseAuth, $firebaseArray, FIREBASE_URL) {
             $scope.aboutField='';
         });
     };
+
+    /* DELETE BIO */
+    $scope.deleteBio = function() {
+        //bioInfo.$remove();
+
+        bioInfo.$remove(index + 1).then(function(ref) {
+            // data has been deleted locally and in the database
+        }, function(error) {
+            console.log("Error:", error);
+        });
+
+        console.log("remove");
+    };
+
 
     /* PROJECTS FUNCTION */
     $scope.addProject = function () {

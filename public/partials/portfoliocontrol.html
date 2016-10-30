@@ -1,0 +1,68 @@
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-6">
+<div class="controlEntry">
+
+    <form name="myform" ng-submit="addName()" novalidate>
+        <div class="inputwrapper">
+        <h3>Name</h3>
+        <input class="form-control" type="text" name="nameField" ng-model="nameField">
+        </div>
+        <button type="submit" class="btn" ng-disabled="myform.$invalid"> Add Name </button>
+    </form>
+
+    <form name="myform" ng-submit="addBio()" novalidate>
+        <div class="inputwrapper">
+            <h3>Bio</h3>
+            <textarea class="form-control" type="text" name="aboutField" ng-model="aboutField"></textarea>
+        </div>
+        <button type="submit" class="btn" ng-disabled="myform.$invalid"> Add Bio </button>
+    </form>
+
+    <form name="myform" ng-submit="addProject()" novalidate>
+        <div class="inputwrapper">
+            <h3>Project Information</h3>
+            <h6>Project Name</h6>
+            <input class="form-control" type="text" name="projectName"  ng-model="projectName">
+            <h6>Project About</h6>
+            <textarea class="form-control" type="text" name="projectAbout"  ng-model="projectAbout"></textarea>
+            <h6>Project Resources</h6>
+            <input class="form-control" type="text" name="projectResources"  ng-model="projectResources">
+            <h6>Project Link</h6>
+            <input class="form-control" type="text" name="projectLink" ng-model="projectLink">
+        </div>
+        <button type="submit" class="btn" ng-disabled="myform.$invalid"> Add Project </button>
+    </form>
+
+</div>
+</div>
+<div class="col-md-6">
+<div class="controlOutput">
+
+    <h3>Name</h3>
+    <div ng-repeat="(key, n) in names">
+        <p>{{ n.name }}</p>
+    </div>
+
+    <h3>Bio</h3>
+    <div ng-repeat="(key, i) in bios">
+        <p>{{ i.about }}</p>
+    </div>
+
+    <button ng-click="deleteBio()" class="btn">Delete</button>
+
+    <h3>Project</h3>
+    <div ng-repeat="(key, p) in projects">
+        <p>{{ p.index }}</p>
+        <h5>{{ p.name }}</h5>
+        <p>{{ p.about }}</p>
+        <p>{{ p.resources }}</p>
+        <p>{{ p.link }}</p>
+    </div>
+
+
+</div>
+</div>
+
+</div>
+</div>
