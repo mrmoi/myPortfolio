@@ -18,15 +18,14 @@
 
 
             <p>Name</p>
-            <div class="homeDiv" ng-repeat="(key, item) in items" ng-model="nameField">
-              <p>{{ nameField.name }}</p>
+            <div ng-repeat="(key, n) in names">
+                <p>{{ n.name }}</p>
             </div>
 
-            <p>sfdfds</p>
 
             <p>Bio</p>
-            <div class="homeDiv" ng-repeat="(key, item) in items" ng-model="aboutField">
-            <p>{{ bio.aboutField }}</p>
+            <div ng-repeat="(key, i) in bios">
+            <p>{{ i.about }}</p>
             </div>
 
 
