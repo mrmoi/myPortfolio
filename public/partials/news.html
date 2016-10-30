@@ -16,6 +16,14 @@
                 <button type="submit" class="btn" ng-disabled="myform.$invalid"> Add Bio </button>
               </form>
 
+    <form name="myform" ng-submit="addProject()" novalidate>
+        <div class="inputwrapper">
+            <input type="text" name="projectName" placeholder="projectName" ng-model="projectName">
+            <input type="text" name="projectAbout" placeholder="projectAbout" ng-model="projectAbout">
+            <input type="text" name="projectResources" placeholder="projectResources" ng-model="projectResources">
+        </div>
+        <button type="submit" class="btn" ng-disabled="myform.$invalid"> Add Project </button>
+    </form>
 
             <p>Name</p>
             <div ng-repeat="(key, n) in names">
@@ -27,6 +35,13 @@
             <div ng-repeat="(key, i) in bios">
             <p>{{ i.about }}</p>
             </div>
+
+    <p>Project</p>
+    <div ng-repeat="(key, p) in projects">
+        <p>{{ p.name }}</p>
+        <p>{{ p.about }}</p>
+        <p>{{ p.resources }}</p>
+    </div>
 
 
 </div>

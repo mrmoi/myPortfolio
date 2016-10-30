@@ -12,8 +12,8 @@ myApp.config(['$routeProvider', function($routeProvider) {
           controller: 'BackendController'
         }).
         when('/gallery', {
-          templateUrl: 'partials/gallery.html'
-          //controller: 'RegistrationController'
+          templateUrl: 'partials/gallery.html',
+          controller: 'BackendController'
         }).
         otherwise ({
           redirectTo: '/home'

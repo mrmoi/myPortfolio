@@ -11,6 +11,11 @@ function($scope, $rootScope, $firebaseAuth, $firebaseArray, FIREBASE_URL) {
     var bioInfo = new $firebaseArray(bioRef);
     $scope.bios = bioInfo;
 
+    /* PROJECTS CONTENT */
+    var projectRef = new Firebase(FIREBASE_URL + '/project');
+    var projectInfo = new $firebaseArray(projectRef);
+    $scope.projects = projectInfo;
+
 
     /* NAME FIELD FUNCTION */
     $scope.addName = function() {
@@ -29,6 +34,20 @@ function($scope, $rootScope, $firebaseAuth, $firebaseArray, FIREBASE_URL) {
             date: Firebase.ServerValue.TIMESTAMP
         }).then(function() {
             $scope.aboutField='';
+        });
+    };
+
+    /* PROJECTS FUNCTION */
+    $scope.addProject = function () {
+        projectInfo.$add({
+            name: $scope.projectName,
+            about: $scope.projectAbout,
+            resources: $scope.projectResources,
+            date: Firebase.ServerValue.TIMESTAMP
+        }).then(function() {
+            $scope.projectName='';
+            $scope.projectAbout='';
+            $scope.projectResources='';
         });
     };
 
