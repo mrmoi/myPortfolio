@@ -44,12 +44,14 @@
         <p>{{ n.name }}</p>
     </div>
 
+    <button ng-click="deleteName()" class="btn">Delete Name</button>
+
     <h3>Bio</h3>
     <div ng-repeat="(key, i) in bios">
         <p>{{ i.about }}</p>
     </div>
 
-    <button ng-click="deleteBio()" class="btn">Delete</button>
+    <button ng-click="deleteBio()" class="btn">Delete Bio</button>
 
     <h3>Project</h3>
     <div ng-repeat="(key, p) in projects">
