@@ -19,6 +19,15 @@ $(document).ready(function(){
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
+/*
+$(window).scroll(function () {
+    $("nav").css("background-color", "black");
+})
+*/
+ $(document).on( 'scroll', 'nav', function() {
+    $("nav").css("background-color", "black");
+     console.log('Event Fired');
+ })
 
 
 
