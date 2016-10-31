@@ -55,11 +55,12 @@
 
     <h3>Project</h3>
     <div ng-repeat="(key, p) in projects">
-        <p>{{ p.index }}</p>
+   <!--<p>{{ p.index }}</p>-->
         <h5>{{ p.name }}</h5>
         <p>{{ p.about }}</p>
         <p>{{ p.resources }}</p>
         <p>{{ p.link }}</p>
+        <button ng-click="deleteProject()" class="btn"> - </button>
     </div>
 
 
