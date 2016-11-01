@@ -47,6 +47,7 @@
 .customNav {
     background-color: rgba(0, 0, 0, 0.4);
     border-bottom: 2px solid silver;
+    transition: 0.2s ease-in-out;
 }
 
 /* ABOUT ME CONTAINER */
