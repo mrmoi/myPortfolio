@@ -140,12 +140,25 @@ body {
 
 .controlEntry {
     position: relative;
-    top: 5em;
+    top: 50px;
     padding: 2%;
 }
 
 .controlEntry button {
     margin-top: 2%;
+    border: 1px solid silver;
+    border-radius: 15px;
+    background-color: slategray;
+    color: black;
+}
+
+.controlEntry button:hover {
+    margin-top: 2%;
+    border: 1px solid silver;
+    border-radius: 15px;
+    transition: 0.5s ease-in-out;
+    background-color: #1a237e;
+    color: white;
 }
 
 .controlEntry input {
@@ -162,12 +175,25 @@ body {
 
 .controlOutput {
     position: relative;
-    top: 5em;
+    top: 50px;
     padding: 2%;
 }
 
 .controlOutput button {
     margin-top: 2%;
+    border: 1px solid silver;
+    border-radius: 15px;
+    background-color: slategray;
+    color: black;
+}
+
+.controlOutput button:hover {
+    margin-top: 2%;
+    border: 1px solid silver;
+    border-radius: 15px;
+    transition: 0.5s ease-in-out;
+    background-color: #1a237e;
+    color: white;
 }
 
 .controlOutput input {
@@ -178,7 +204,14 @@ body {
     margin-top: 2%;
 }
 
-
+.controlHeading {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.4em;
+    text-shadow: 1px 2px 3px silver;
+    color: black;
+    padding: 1px;
+    text-align: left;
+}
 
 
 

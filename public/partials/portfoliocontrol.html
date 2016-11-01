@@ -1,27 +1,31 @@
-<div class="container-fluid controlBackground">
+<div class="container-fluid">
 <div class="row">
 <div class="col-md-6">
 <div class="controlEntry">
 
     <form name="myform" ng-submit="addName()" novalidate>
         <div class="inputwrapper">
-        <h3 class="headingFont">Name</h3>
+        <h3 class="controlHeading">Name</h3>
         <input class="form-control" type="text" name="nameField" ng-model="nameField">
         </div>
         <button type="submit" class="btn" ng-disabled="myform.$invalid"> Add Name </button>
     </form>
 
+
+
     <form name="myform" ng-submit="addBio()" novalidate>
         <div class="inputwrapper">
-            <h3 class="headingFont">Bio</h3>
+            <h3 class="controlHeading">Bio</h3>
             <textarea class="form-control" type="text" name="aboutField" ng-model="aboutField"></textarea>
         </div>
         <button type="submit" class="btn" ng-disabled="myform.$invalid"> Add Bio </button>
     </form>
 
+
+
     <form name="myform" ng-submit="addProject()" novalidate>
         <div class="inputwrapper">
-            <h3 class="headingFont">Project Information</h3>
+            <h3 class="controlHeading">Project Information</h3>
             <h6>Project Name</h6>
             <input class="form-control" type="text" name="projectName"  ng-model="projectName">
             <h6>Project About</h6>
@@ -39,21 +43,21 @@
 <div class="col-md-6">
 <div class="controlOutput">
 
-    <h3 class="headingFont">Name</h3>
+    <h3 class="controlHeading">Name</h3>
     <div ng-repeat="(key, n) in names | filter: { name: 'Moises Martinez' }">
         <p>{{ n.name }}</p>
     </div>
 
     <button ng-click="deleteName()" class="btn">Delete Name</button>
 
-    <h3 class="headingFont">Bio</h3>
+    <h3 class="controlHeading">Bio</h3>
     <div ng-repeat="(key, i) in bios">
         <p>{{ i.about }}</p>
     </div>
 
     <button ng-click="deleteBio()" class="btn">Delete Bio</button>
 
-    <h3 class="headingFont">Project</h3>
+    <h3 class="controlHeading">Project</h3>
     <div ng-repeat="(key, p) in projects">
    <!--<p>{{ p.index }}</p>-->
         <h5>{{ p.name }}</h5>
