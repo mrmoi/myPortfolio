@@ -133,6 +133,10 @@ body {
 
 
 /*##########  CONTROL PAGE STYLES #########*/
+.controlBackground {
+    background-color: whitesmoke;
+}
+
 .controlEntry {
     position: relative;
     top: 5em;
@@ -150,6 +154,10 @@ body {
 .controlEntry textarea {
     margin-top: 2%;
 }
+
+
+/*#####   CONTROL OUTPUT  ######## */
+
 
 .controlOutput {
     position: relative;

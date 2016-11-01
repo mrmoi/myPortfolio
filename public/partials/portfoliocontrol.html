@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid controlBackground">
 <div class="row">
 <div class="col-md-6">
 <div class="controlEntry">
@@ -40,7 +40,7 @@
 <div class="controlOutput">
 
     <h3>Name</h3>
-    <div ng-repeat="(key, n) in names">
+    <div ng-repeat="(key, n) in names | filter: { name: 'Moises Martinez' }">
         <p>{{ n.name }}</p>
     </div>
 
