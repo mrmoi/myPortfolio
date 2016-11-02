@@ -60,11 +60,10 @@
     <h3 class="controlHeading">Project</h3>
     <div ng-repeat="(key, p) in projects">
    <!--<p>{{ p.index }}</p>-->
-        <h5>{{ p.name }}</h5>
+        <p style="display: inline-block"> <strong>{{ p.name }}</strong> <button ng-click="deleteProject()" class="btn"> - </button></p>
         <p>{{ p.about }}</p>
         <p>{{ p.resources }}</p>
         <p>{{ p.link }}</p>
-        <button ng-click="deleteProject()" class="btn"> - </button>
     </div>
 
 
