@@ -45,7 +45,7 @@
 
 /* NAVBAR STYLES */
 .customNav {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: transparent;
     border-bottom: 2px solid silver;
     transition: 0.2s ease-in-out;
 }

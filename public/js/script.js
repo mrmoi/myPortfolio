@@ -36,6 +36,8 @@ $(function () {
             if ( (topDistance+10) < scrollTop ) {
                 //alert( $(this).text() + ' was scrolled to the top' );
                 $("nav").css("background-color", "#A0A0A0");
+                $("#bg").css("opacity", "0.6");
+                $(".aboutContainer").css("opacity", "0.8");
             } else {
                 $("nav").css("background-color", "transparent");
             }
