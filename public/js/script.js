@@ -33,16 +33,20 @@ $(function () {
         $('.aboutContainer').each(function() {
             var topDistance = $(this).offset().top;
 
-            if ( (topDistance+10) < scrollTop ) {
+            if ( (topDistance) < scrollTop ) {
                 //alert( $(this).text() + ' was scrolled to the top' );
-                $("nav").css("background-color", "#A0A0A0");
-                $("#bg").css("opacity", "0.6");
-                $(".aboutContainer").css("opacity", "0.8");
+                $("nav").css("background-color", "black");
+                //$("#bg").css("opacity", "0.6");
+                //$(".aboutContainer").css("opacity", "0.9");
             } else {
-                $("nav").css("background-color", "transparent");
+                $("nav").css("background-color", "rgba(0, 0, 0, 0.5)");
+                $(".menuHeading:hover").css("color", "yellow");
+                //$("#bg").css("opacity", "0.9");
             }
         });
     });
+
+
 
 
 });

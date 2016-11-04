@@ -8,11 +8,13 @@
 
 /* CURRENT STYLES ##################################################  */
 .teamBrand {
-    font-family: 'Kanit', sans-serif;
-    font-size: 1.2em;
+    font-family: 'Lobster', sans-serif;
+    font-size: 1.0em;
     text-shadow: 1px 1px 3px silver;
     color: white;
     padding: 3px;
+    border: 1px solid springgreen;
+    background-color: rgba(0, 200, 0, 0.3);
 }
 
 .headingFont {
@@ -27,8 +29,8 @@
 .menuHeading {
      font-family: 'Kanit', sans-serif;
      font-size: 1.4em;
-     text-shadow: 1px 2px 3px silver;
-     color: white;
+     text-shadow: 1px 2px 3px black;
+     color: silver;
      padding: 3px;
     text-align: center;
 }
@@ -36,8 +38,8 @@
 .menuHeading:hover {
     font-family: 'Kanit', sans-serif;
     font-size: 1.4em;
-    text-shadow: 1px 2px 3px white;
-    color: black;
+    text-shadow: 1px 2px 3px darkgray;
+    color: white;
     padding: 3px;
     text-align: center;
     transition: 0.5s ease-in-out;
@@ -45,7 +47,7 @@
 
 /* NAVBAR STYLES */
 .customNav {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
     border-bottom: 2px solid silver;
     transition: 0.2s ease-in-out;
 }
@@ -58,6 +60,7 @@
     border: 1px solid silver;
     background-color: rgba(0, 0, 0, 0.4);
     padding: 30px 15px 30px 15px;
+    margin-bottom: 5%;
 }
 
 .myImage {
