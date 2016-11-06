@@ -110,10 +110,12 @@ body {
   background-color: black;
 }
 .panel-body {
-  color: #1a237e;
-  font-family: 'Dosis', cursive;
+  color: mediumblue;
+  font-family: 'Roboto Slab', cursive;
   font-size: 1.2em;
-  background-color: silver;
+  font-weight: bold;
+  line-height: 1.5em;
+  background-color: silver
 }
 .panel-title {
     font-family: 'Kanit', sans-serif;
