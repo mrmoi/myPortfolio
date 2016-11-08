@@ -110,12 +110,12 @@ body {
   background-color: black;
 }
 .panel-body {
-  color: mediumblue;
-  font-family: 'Roboto Slab', cursive;
-  font-size: 1.2em;
+  color: midnightblue;
+  font-family: 'Poiret One', cursive;
+  font-size: 1.1em;
   font-weight: bold;
   line-height: 1.5em;
-  background-color: silver
+  background-color: lightgrey;
 }
 .panel-title {
     font-family: 'Kanit', sans-serif;
@@ -128,8 +128,9 @@ body {
 }
 
 .panel-body b {
-    font-weight: 900;
-    color: #333333;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
 }
 
 #divID {
