@@ -15,6 +15,7 @@ function($scope, $rootScope, $firebaseAuth, $firebaseArray, FIREBASE_URL) {
     /* PROJECTS CONTENT */
     var projectRef = new Firebase(FIREBASE_URL + '/project');
     var projectInfo = new $firebaseArray(projectRef);
+    var projectindex = projectInfo.$indexFor(projectRef);
     $scope.projects = projectInfo;
 
 
@@ -28,7 +29,19 @@ function($scope, $rootScope, $firebaseAuth, $firebaseArray, FIREBASE_URL) {
         });
     };
 
-    /* ABOUT ME CONTENT FUNCTION */
+    /* DELETE NAME */
+    $scope.deleteName = function() {
+
+        nameInfo.$remove(index + 1).then(function(ref) {
+            // data has been deleted locally and in the database
+        }, function(error) {
+            console.log("Error:", error);
+        });
+
+        console.log("removed name");
+    };
+
+    /* BIO CONTENT FUNCTION */
     $scope.addBio = function () {
         bioInfo.$add({
             about: $scope.aboutField,
@@ -66,6 +79,18 @@ function($scope, $rootScope, $firebaseAuth, $firebaseArray, FIREBASE_URL) {
             $scope.projectResources='';
             $scope.projectLink='';
         });
+    };
+
+    /* DELETE PROJECT */
+    $scope.deleteProject = function() {
+
+        projectInfo.$remove(projectindex + 1).then(function(ref) {
+            // data has been deleted locally and in the database
+        }, function(error) {
+            console.log("Error:", error);
+        });
+
+        console.log("remove");
     };
 
 
