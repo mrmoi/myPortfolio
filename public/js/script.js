@@ -36,11 +36,12 @@ $(function () {
             if ( (topDistance) < scrollTop ) {
                 //alert( $(this).text() + ' was scrolled to the top' );
                 $("nav").css("background-color", "black");
+
                 //$("#bg").css("opacity", "0.6");
                 //$(".aboutContainer").css("opacity", "0.9");
             } else {
                 $("nav").css("background-color", "rgba(0, 0, 0, 0.5)");
-                $(".menuHeading:hover").css("color", "yellow");
+                //$(".menuHeading:hover").css("color", "yellow");
                 //$("#bg").css("opacity", "0.9");
             }
         });

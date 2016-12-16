@@ -2,7 +2,7 @@
 
 
 
-@import url(https://fonts.googleapis.com/css?family=Roboto|Poiret+One|Lobster|Limelight|Sansita+One|Roboto+Slab:300|Montez);
+@import url(https://fonts.googleapis.com/css?family=Roboto|Poiret+One|Lobster|Limelight|Sansita+One|Roboto+Slab:300|Montez|Mirza);
 @import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700|Kanit:400,800);
 
 
@@ -49,6 +49,7 @@
 .customNav {
     background-color: rgba(0, 0, 0, 0.5);
     border-bottom: 2px solid silver;
+    box-shadow: 1px 3px springgreen;
     transition: 0.2s ease-in-out;
 }
 
@@ -61,6 +62,7 @@
     background-color: rgba(0, 0, 0, 0.4);
     padding: 30px 15px 30px 15px;
     margin-bottom: 5%;
+    box-shadow: 3px 3px 3px springgreen;
 }
 
 .myImage {
@@ -110,9 +112,9 @@ body {
   background-color: black;
 }
 .panel-body {
-  color: midnightblue;
-  font-family: 'Poiret One', cursive;
-  font-size: 1.1em;
+  color: darkslategrey;
+  font-family: 'Mirza', cursive;
+  font-size: 1.3em;
   font-weight: bold;
   line-height: 1.5em;
   background-color: lightgrey;
