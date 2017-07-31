@@ -49,7 +49,7 @@
 .customNav {
     background-color: rgba(0, 0, 0, 0.5);
     border-bottom: 2px solid silver;
-    box-shadow: 1px 3px springgreen;
+    box-shadow: 1px 3px white;
     transition: 0.2s ease-in-out;
 }
 
@@ -62,7 +62,7 @@
     background-color: rgba(0, 0, 0, 0.4);
     padding: 30px 15px 30px 15px;
     margin-bottom: 5%;
-    box-shadow: 3px 3px 3px springgreen;
+    box-shadow: 3px 3px 3px white;
 }
 
 .myImage {
