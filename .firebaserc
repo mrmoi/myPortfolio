@@ -1,5 +1,6 @@
 {
   "projects": {
-    "myport": "myportfolio-bc837"
+    "myport": "myportfolio-bc837",
+    "default": "myportfolio-bc837"
   }
 }
