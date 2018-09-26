@@ -8,7 +8,7 @@ myApp.config(['$routeProvider', function($routeProvider) {
           controller: 'BackendController'
         }).
         when('/portfoliocontrol', {
-          templateUrl: 'partials/,
+          templateUrl: 'partials/portfoliocontrol.html',
           controller: 'BackendController'
         }).
         when('/projects', {
